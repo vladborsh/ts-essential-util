@@ -8,7 +8,7 @@ Following project contains starter and config for simple typescript project. Def
 * Webpack
 * Live dev server
 
-## Intallation
+## Installation
 
 Open terminal and run next commands
 
