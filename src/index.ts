@@ -16,3 +16,4 @@ export class ESU {
     public static IsNative: Function = IsNative;
     public static MatchesSelector: Function = MatchesSelector;
 }
+// 
