@@ -1,12 +1,16 @@
-# Typescript project starter
+# Essential JavaScript Functions
 
-Following project contains starter and config for simple typescript project. Default address: ```localhost:4100```
+Times have changed but there are still a few functions each developer should have in their arsenal, for performance for functional ease purposes.
 
 ## Features
 
-* Typescript
-* Webpack
-* Live dev server
+* Debounce
+* Poll
+* Once
+* getAbsoluteUrl
+* isNative
+* insertRule
+* matchesSelector
 
 ## Installation
 
