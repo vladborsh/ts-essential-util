@@ -1,7 +1,7 @@
 import { Debounce } from "./debounce";
 
-describe("something", () => {
-    it("should work", () => {
+describe("Debounce", () => {
+    it("should be defined", () => {
         expect(Debounce).toBeDefined()
     });
 });
