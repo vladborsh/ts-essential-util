@@ -1,4 +1,4 @@
-const path = require('path'),
+var path = require('path'),
    BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
