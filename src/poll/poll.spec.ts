@@ -1,7 +1,7 @@
-import { Poll } from "./poll";
+import { poll } from "./poll";
 
 describe("Poll", () => {
     it("should be defined", () => {
-        expect(Poll).toBeDefined()
+        expect(poll).toBeDefined()
     });
 });

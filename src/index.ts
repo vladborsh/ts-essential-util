@@ -1,19 +1,18 @@
-import { Once } from "./once/once";
-import { Debounce } from "./debounce/debounce";
-import { GetAbsolueUrl } from "./get-absolute-url/get-absolute-url";
-import { InsertRule } from "./insert-rule/insert-rule";
-import { IsNative } from "./is-native/is-native";
-import { MatchesSelector } from "./matches-selector/matches-selector";
-import { Poll } from "./poll/poll";
+import { once } from "./once/once";
+import { debounce } from "./debounce/debounce";
+import { getAbsolueUrl } from "./get-absolute-url/get-absolute-url";
+import { insertRule } from "./insert-rule/insert-rule";
+import { isNative } from "./is-native/is-native";
+import { matchesSelector } from "./matches-selector/matches-selector";
+import { poll } from "./poll/poll";
 
 
-export class ESU {
-    public static Once: Function = Once;
-    public static Poll: Function = Poll;
-    public static Debounce: Function = Debounce;
-    public static GetAbsolueUrl: Function = GetAbsolueUrl;
-    public static InsertRule: Function = InsertRule;
-    public static IsNative: Function = IsNative;
-    public static MatchesSelector: Function = MatchesSelector;
+export class tu {
+    public static once: Function = once;
+    public static poll: Function = poll;
+    public static debounce: Function = debounce;
+    public static getAbsolueUrl: Function = getAbsolueUrl;
+    public static insertRule: Function = insertRule;
+    public static isNative: Function = isNative;
+    public static matchesSelector: Function = matchesSelector;
 }
-// 

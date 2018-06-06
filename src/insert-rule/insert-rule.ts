@@ -1,4 +1,4 @@
-export function InsertRule(): StyleSheet {
+export function insertRule(): StyleSheet {
     // Create the <style> tag
 	let style: HTMLStyleElement = document.createElement('style');
 

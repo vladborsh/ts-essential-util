@@ -4,7 +4,7 @@
  * N milliseconds. If `immediate` is passed, trigger the function on the
  * leading edge, instead of the trailing.
  */
-export function Debounce(func: Function, wait: number, immediate: boolean): Function {
+export function debounce(func: Function, wait: number, immediate: boolean): Function {
     let timeout: number;
 	return function() {
         let context = this;

@@ -1,7 +1,7 @@
-import { ESU } from "./index";
+import { tu } from "./index";
 
-describe("something", () => {
+describe("Typescript Utils", () => {
     it("should work", () => {
-        expect(ESU.Once).toBeDefined()
+        expect(tu).toBeDefined()
     });
 });

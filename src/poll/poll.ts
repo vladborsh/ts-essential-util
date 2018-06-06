@@ -1,4 +1,4 @@
-export function Poll(func: Function, timeout: number, interval: number): Promise<any> {
+export function poll(func: Function, timeout: number, interval: number): Promise<any> {
     const endTime: Number = Number(new Date()) + (timeout || 2000);
     interval = interval || 100;
 

@@ -1,7 +1,7 @@
-import { Debounce } from "./debounce";
+import { debounce } from "./debounce";
 
 describe("Debounce", () => {
     it("should be defined", () => {
-        expect(Debounce).toBeDefined()
+        expect(debounce).toBeDefined()
     });
 });
