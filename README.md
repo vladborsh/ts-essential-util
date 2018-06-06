@@ -4,16 +4,6 @@
 
 Times have changed but there are still a few functions each developer should have in their arsenal, for performance for functional ease purposes.
 
-## Features
-
-* Debounce
-* Poll
-* Once
-* GetAbsoluteUrl
-* IsNative
-* InsertRule
-* MatchesSelector
-
 ## Description
 
 ### Debounce
@@ -55,7 +45,7 @@ canOnlyFireOnce(); // "Fired!"
 canOnlyFireOnce(); // no
 ```
 
-### GetAbsoluteUrl
+### Get Absolute Url
 
 Dealing with URL formats can be a real nightmare.  Think of how just a few characters can effect a URL's absolute endpoint. No matter how you pass in the URL string, the URL will come out absolute.
 
@@ -63,16 +53,16 @@ Dealing with URL formats can be a real nightmare.  Think of how just a few chara
 tu.getAbsoluteUrl('/something'); // https://github.com/something
 ```
 
-### IsNative
+### Is Native
 
 Every once a while I'll test is a given function is native code -- it's an important part of feature testing whether a function was provided by the browser or via a third party shim which acts like the native feature. 
 
 ``` javascript
-tu.IsNative(alert); // true
-tu.IsNative(myCustomFunction); // false
+tu.isNative(alert); // true
+tu.isNative(myCustomFunction); // false
 ```
 
-### InsertRule
+### Insert Rule
 
 Since we're using so much JavaScript in our web applications these days, we're looking for more ways to keep them fast. Another way we can make our pages efficient and fast is to dynamically add and remove styles directly to a stylesheet instead of constantly querying the DOM for elements and applying styles. This is especially useful when working on a dynamic, AJAX-heavy site.  If you set the style to a selector, you don't need to account for styling each element that may match that selector (now or in the future).
 
@@ -80,7 +70,7 @@ Since we're using so much JavaScript in our web applications these days, we're l
 tu.insertRule("header { float: left; opacity: 0.8; }", 1);
 ```
 
-### MatchesSelector
+### Matches Selector
 
 Oftentimes we validate input before moving forward; ensuring a truthy value, ensuring forms data is valid, etc.  But how often do we ensure an element qualifies for moving forward?
 
